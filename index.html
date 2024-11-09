@@ -13,9 +13,11 @@
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <title>Omnifood</title>
   </head>
   <body>
+    <!-- nav-open  -->
     <header class="header">
       <img class="logo" src="img/omnifood-logo.png" alt="omnilogo" />
       <nav class="main-nav">
@@ -27,6 +29,10 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -424,7 +430,7 @@
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
-          <div class="princing-plan princing-plan--starter">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
               <p class="plan-price"><span>$</span>399</p>
@@ -452,7 +458,7 @@
             </div>
           </div>
 
-          <div class="princing-plan princing-plan--complete">
+          <div class="pricing-plan pricing-plan--complete">
             <header class="plan-header">
               <p class="plan-name">Complete</p>
               <p class="plan-price"><span>$</span>649</p>
